@@ -5,6 +5,7 @@
     <ProjectReference Include="..\Tasks\MathCalculations\Tasks.MathCalculations.csproj" />
     <ProjectReference Include="..\Tasks\BronzeDigitsCount\Tasks.BronzeDigitsCount.csproj" />
     <ProjectReference Include="..\Tasks\FlatCount\Tasks.FlatCount.csproj" />
+    <ProjectReference Include="..\Tasks\MathCalculations2\Tasks.MathCalculations2.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
