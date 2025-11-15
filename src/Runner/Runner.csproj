@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tasks.Common\Tasks.Common.csproj" />
+    <ProjectReference Include="..\Tasks\MathCalculations\Tasks.MathCalculations.csproj" />
+    <ProjectReference Include="..\Tasks\BronzeDigitsCount\Tasks.BronzeDigitsCount.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
