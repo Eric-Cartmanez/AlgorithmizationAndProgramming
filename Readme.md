@@ -132,30 +132,32 @@
 // Правило 1: Убедитесь, что using System на месте
 using System;
 
-class Program
-{
-    // Правило 2: Вся логика должна быть в статическом методе Main
-    static void Main(string[] args)
+namespace MathCalculations {
+    internal class Program
     {
-        // Правило 3: УДАЛИТЬ все приглашения к вводу, типа Console.Write("Введите а:")
-        // Система подает данные на вход автоматически.
-        string input = Console.ReadLine();
-        double a = double.Parse(input);
-
-        // Это чистая логика, скопированная из вашего метода Calculate()
-        double expression = (2 * a + Math.Sin(Math.Abs(3 * a))) / 3.56;
-
-        if (expression < 0)
+        // Правило 2: Вся логика должна быть в статическом методе Main
+        static void Main(string[] args)
         {
-            // Если система ожидает какой-то вывод в случае ошибки, укажите его здесь.
-            // Если нет - можно оставить пустым или вывести 0.
-        }
-        else
-        {
-            double x = Math.Sqrt(expression);
-            // Правило 5: Округляем до того количества знаков, которое указано в задании
-            double roundedX = Math.Round(x, 3);
-            Console.WriteLine(roundedX);
+            // Правило 3: УДАЛИТЬ все приглашения к вводу, типа Console.Write("Введите а:")
+            // Система подает данные на вход автоматически.
+            string input = Console.ReadLine();
+            double a = double.Parse(input);
+
+            // Это чистая логика, скопированная из вашего метода Calculate()
+            double expression = (2 * a + Math.Sin(Math.Abs(3 * a))) / 3.56;
+
+            if (expression < 0)
+            {
+                // Если система ожидает какой-то вывод в случае ошибки, укажите его здесь.
+                // Если нет - можно оставить пустым или вывести 0.
+            }
+            else
+            {
+                double x = Math.Sqrt(expression);
+                // Правило 5: Округляем до того количества знаков, которое указано в задании
+                double roundedX = Math.Round(x, 3);
+                Console.WriteLine(roundedX);
+            }
         }
     }
 }
