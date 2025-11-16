@@ -37,14 +37,15 @@
 2.  **Реализуйте интерфейс**: Класс должен реализовывать тот же интерфейс, что и основное решение (например, `IMathCalculationSolution`). Это обеспечит наличие методов `Run()` и `Calculate()`.
 
 3.  **Добавьте в тесты**: Откройте тестовый файл `tests/Tasks.Tests/MathCalculationsTests.cs`. Найдите метод `GetSolutions()` и добавьте в него экземпляр вашего нового класса:
-        ```csharp
+
+```csharp
         public static IEnumerable<object[]> GetSolutions()
         {
             yield return new object[] { new MathCalculations() };
             // Добавляем новую строку
             yield return new object[] { new MathCalculationsAlternative() };
         }
-        ```
+```
 
 4.  **Готово!** `Runner` автоматически найдет ваше новое решение. А при запуске `dotnet test` все существующие тесты будут выполнены и для вашей новой реализации.
 
