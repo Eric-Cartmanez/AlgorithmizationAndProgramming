@@ -44,8 +44,11 @@ namespace Tasks.Tests
         public void Calculate_WithValidInputs_ReturnsCorrectAngle(int h, int m, int s, double expected)
         {
             var solution = new Tasks.ClockFace.ClockFace();
+            var altSolution = new Tasks.ClockFace.ClockFaceAlternative();
             double result = solution.Calculate(h, m, s);
+            double altResult = altSolution.Calculate(h, m, s);
             Assert.Equal(expected, result);
+            Assert.Equal(expected, altResult);
         }
 
         [Theory]
