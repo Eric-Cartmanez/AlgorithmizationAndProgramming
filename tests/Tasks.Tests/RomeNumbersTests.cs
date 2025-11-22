@@ -42,12 +42,15 @@ namespace Tasks.Tests
         {
             // Arrange
             var solution = new Tasks.RomeNumbers.RomeNumbers();
+            var altSolution = new RomeNumbersAlternative();
 
             // Act
             var result = solution.Convert(input);
+            var altResult = altSolution.Convert(input);
 
             // Assert
             Assert.Equal(expected, result);
+            Assert.Equal(expected, altResult);
         }
 
         [Fact]
@@ -55,9 +58,11 @@ namespace Tasks.Tests
         {
             // Arrange
             var solution = new Tasks.RomeNumbers.RomeNumbers();
+            var altSolution = new RomeNumbersAlternative();
 
             // Act & Assert
             Assert.Throws<ArgumentOutOfRangeException>(() => solution.Convert(0));
+            Assert.Throws<ArgumentOutOfRangeException>(() => altSolution.Convert(0));
         }
 
         [Fact]
@@ -65,9 +70,11 @@ namespace Tasks.Tests
         {
             // Arrange
             var solution = new Tasks.RomeNumbers.RomeNumbers();
+            var altSolution = new RomeNumbersAlternative();
 
             // Act & Assert
             Assert.Throws<ArgumentOutOfRangeException>(() => solution.Convert(101));
+            Assert.Throws<ArgumentOutOfRangeException>(() => altSolution.Convert(101));
         }
     }
 }
