@@ -39,6 +39,8 @@
     <ProjectReference Include="..\..\src\Tasks\ClockFace\Tasks.ClockFace.csproj" />
     <ProjectReference Include="..\..\src\Tasks\ClockFace2\Tasks.ClockFace2.csproj" />
     <ProjectReference Include="..\..\src\Tasks\RomeNumbers\Tasks.RomeNumbers.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\GraphFunctionConsonat\Tasks.GraphFunctionConsonat.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\GraphFunctionVowel\Tasks.GraphFunctionVowel.csproj" />
   </ItemGroup>
 
 </Project>

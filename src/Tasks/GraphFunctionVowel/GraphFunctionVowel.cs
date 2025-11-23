@@ -1,0 +1,34 @@
+using System;
+
+using Tasks.Common;
+
+namespace Tasks.GraphFunctionVowel
+{
+    public class GraphFunctionVowel : IGraphFunctionVowelSolution
+    {
+        private static double period = 2.0;
+        public void Run()
+        {
+            string input = Console.ReadLine();
+            double x = double.Parse(input);
+            double f = F(x);
+            Console.WriteLine(x);
+        }
+
+        public double F(double x)
+        {
+            double normalizedX = x % period;
+            if (normalizedX < 0)
+                normalizedX += period;
+
+            if (normalizedX < 1)
+            {
+                return normalizedX;
+            }
+            else
+            {
+                return -normalizedX + 2;
+            }
+        }
+    }
+}
