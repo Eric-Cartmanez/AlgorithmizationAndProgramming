@@ -42,6 +42,7 @@
     <ProjectReference Include="..\..\src\Tasks\GraphFunctionConsonat\Tasks.GraphFunctionConsonat.csproj" />
     <ProjectReference Include="..\..\src\Tasks\GraphFunctionVowel\Tasks.GraphFunctionVowel.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Boxes\Tasks.Boxes.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\VowelOrConsonant\Tasks.VowelOrConsonant.csproj" />
   </ItemGroup>
 
 </Project>
