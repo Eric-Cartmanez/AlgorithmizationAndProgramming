@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Tasks\WhileCarsDistance\Tasks.WhileCarsDistance.csproj" />
     <ProjectReference Include="..\Tasks\BuildTriangle\Tasks.BuildTriangle.csproj" />
     <ProjectReference Include="..\Tasks\TrigonometricFunctions\Tasks.TrigonometricFunctions.csproj" />
+    <ProjectReference Include="..\Tasks\WhileInput\Tasks.WhileInput.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
