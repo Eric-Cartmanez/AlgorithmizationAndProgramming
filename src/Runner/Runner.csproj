@@ -22,6 +22,7 @@
     <ProjectReference Include="..\Tasks\TheLargestClass\Tasks.TheLargestClass.csproj" />
     <ProjectReference Include="..\Tasks\SegmentsInTheConsole\Tasks.SegmentsInTheConsole.csproj" />
     <ProjectReference Include="..\Tasks\Numerology\Tasks.Numerology.csproj" />
+    <ProjectReference Include="..\Tasks\AdditionalTrianglePoint\Tasks.AdditionalTrianglePoint.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
