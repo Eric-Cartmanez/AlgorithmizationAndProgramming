@@ -11,6 +11,7 @@ namespace Tasks.Tests
         {
             yield return new object[] { new Tasks.SegmentsInTheConsole.SegmentsInTheConsole() };
             yield return new object[] { new Tasks.SegmentsInTheConsole.SegmentsInTheConsoleAlt() };
+            // yield return new object[] { new Tasks.SegmentsInTheConsole.SegmentsInTheConsoleAlt2() };
         }
 
         public static IEnumerable<object[]> GetTestScenario()
