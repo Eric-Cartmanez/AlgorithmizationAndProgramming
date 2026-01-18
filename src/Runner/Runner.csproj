@@ -28,6 +28,7 @@
     <ProjectReference Include="..\Tasks\FilesList\Tasks.FilesList.csproj" />
     <ProjectReference Include="..\Tasks\FormNumber\Tasks.FormNumber.csproj" />
     <ProjectReference Include="..\Tasks\RandomRangeNumber\Tasks.RandomRangeNumber.csproj" />
+    <ProjectReference Include="..\Tasks\MonthCalendar\Tasks.MonthCalendar.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

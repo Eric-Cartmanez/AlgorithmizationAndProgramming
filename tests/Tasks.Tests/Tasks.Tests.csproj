@@ -55,6 +55,7 @@
     <ProjectReference Include="..\..\src\Tasks\FilesList\Tasks.FilesList.csproj" />
     <ProjectReference Include="..\..\src\Tasks\FormNumber\Tasks.FormNumber.csproj" />
     <ProjectReference Include="..\..\src\Tasks\RandomRangeNumber\Tasks.RandomRangeNumber.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\MonthCalendar\Tasks.MonthCalendar.csproj" />
   </ItemGroup>
 
 </Project>
